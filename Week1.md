@@ -1,4 +1,4 @@
-# Week 1 Questions
+# Week 1: Introduction
 
 ### What are the three main purposes of an operating system?
 
