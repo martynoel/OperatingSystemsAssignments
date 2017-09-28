@@ -64,3 +64,11 @@ If the new context is already loaded into one of the register sets when a contex
 ### Exercises 3.8, 3.10, 3.13, 3.14, 3.18
 
 ### 3.8) Describe the differences among short-term, medium-term, and long- term scheduling.
+
+Short-term scheduling -- Selects a process that is already loaded into memory and allows it to use the CPU. Selects processes often.
+
+Medium-term scheduling -- Removes processes in the ready or blocked queue from memory, and restores them later.
+
+Long-term scheduling -- Selects the processes to run. This may take a while, because processes may take a while to run before completing. 
+
+### 
