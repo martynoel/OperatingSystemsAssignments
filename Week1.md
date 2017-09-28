@@ -27,3 +27,21 @@ The program can set a timer for a future time, go to sleep, get awakened by an i
 Caches are useful when 2+ components need to exchange data and perform transfers at different speeds. A cache acts as a buffer of intermediate speed between the components. This way, the faster component can find the data it needs without having to wait for the slower cache. 
 
 One problem that caches cause is that the data in it could be inconsistent with the data in the components, especially if the cache is being used with a multiprocessor system. A cache could replace an equally-sized component, but the cache would have to have equal state-saving capacity and not cost too much.
+
+### What is the purpose of interrupts? How does an interrupt differ from a trap? Can traps be generated intentionally by a user program? If so, for what purpose?
+
+Interrupts exist to control system flow and execution. Interrupts are *hardware-generated* state changes and traps are *software-generated* state changes. Traps can be generated intentionally by user programs, usually to catch errors or to make system calls. 
+
+### Some computer systems do not provide a privileged mode of operation in hardware. Is it possible to construct a secure operating system for these computer systems? Give arguments both that it is and that it is not possible.
+
+It is possible to construct a secure operating system for computer systems that do not provide a privileged mode of operation in hardware, but it would certainly be very difficult. In order to make such a system secure, all code must be verified by the operating system before being run, which is expensive.
+
+### Describe some of the challenges of designing operating systems for mobile devices compared with designing operating systems for traditional PCs.
+
+Challenges of designing operating systems for mobile devices rather than traditional PCs include having to manage memory and consumption more carefully.
+
+## Identify several advantages and several disadvantages of open-source operating systems. Include the types of people who would find each aspect to be an advantage or a disadvantage.
+
+Open-source operating systems allow developers to build upon existing software to solve their specific problems at hand, rather than having to build a proprietary new system from scratch. It also allows anyone with a bright mind to contribute. Often, developers with a passion for "social coding" and collaboration can be seen contributing to such endeavors.
+
+Being open source means that anyone can see your code. Developers working on open source projects will have their work openly criticized. Those with concern for embarrassment or reputation-harming would find this aspect to be a disadvantage -- although, in my personal opinion, learning from constructive criticism is the fastest way to grow and become a better dev.
