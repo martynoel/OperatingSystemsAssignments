@@ -1,4 +1,4 @@
-# Week 2 Questions
+# Week 2: Operating System Structures
 
 ### What is the purpose of system calls?
 
